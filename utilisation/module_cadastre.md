@@ -3,7 +3,7 @@
 
 Le module cadastre est un module spécifique à vMap intégré dans l'interface cartographique. Le but du module Cadastre est de rechercher soit cartographiquement soit de manière attributaire des entités cadastrales (parcelles, sections, bâtis etc..) pour les  visualiser, consulter leurs informations et générer des rapports spécifiques.
 
-![](../images/idea.png)Le module cadastre est accessible aux personnes en ayant droit, c'est à dire à tout utilisateur pour lequel l'administrateur de l'application a attribué les droits nécessaires pour accéder au module. [En savoir plus sur la gestion des utilisateurs et de leurs privilèges dans vMap](http://vmap.readthedocs.io/fr/latest/doc_module_vitis/administration/users.html).
+![](../images/idea.png)Le module cadastre est accessible aux personnes en ayant droit, c'est à dire à tout utilisateur pour lequel l'administrateur de l'application a attribué les droits nécessaires pour accéder au module. Consulter la page [](http://vmap.readthedocs.io/fr/latest/doc_module_vitis/administration/users.html) pour en savoir plus sur la gestion des utilisateurs dans vMap. 
 
 
 
