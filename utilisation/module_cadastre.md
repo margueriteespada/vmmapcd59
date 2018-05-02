@@ -39,7 +39,7 @@ Une fois une parcelle sélectionnée, ses données littérales peuvent être aff
 
  Cliquer sur le bouton Fiche descriptive ![](../images/bouton_fiche_descriptive.png), puis sélectionner sur la carte, la parcelle dont on souhaite extraire les informations cadastrales.
 
-Les éléments constitutifs de la fiche descriptive d'une parcelle  sont préalablement configurés par l'administrateur de l'application vMap. [En savoir plus sur la configuration de la fiche descriptive d'une parcelle](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html#fiche-descriptive-de-la-parcelle)
+Les éléments constitutifs de la fiche descriptive d'une parcelle  sont préalablement configurés par l'administrateur de l'application vMap. En savoir plus sur la configuration de la fiche descriptive d'une parcelle en consultant http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html#fiche-descriptive-de-la-parcelle
 
 
 La fiche descriptive fournit généralement les éléments suivants :  
@@ -74,7 +74,7 @@ Cliquer sur le bouton Relevé de propriété ![](../images/bouton_releve_proprie
 
 Cliquer sur le bouton Fiche d'urbanisme ![](../images/bouton_fiche_urbanisme.png), puis cliquer sur la parcelle dont on souhaite extraire la fiche.
 
-Les éléments constitutifs de la fiche d'urbanisme sont préalablement configurés par l'administrateur de l'application vMap. [En savoir plus sur la configuration de la fiche d'urbanisme d'une parcelle](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html#fiche-d-urbanisme).
+Les éléments constitutifs de la fiche d'urbanisme sont préalablement configurés par l'administrateur de l'application vMap. En savoir plus sur la configuration de la fiche d'urbanisme d'une parcelle, en consultant la page http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html#fiche-d-urbanisme.
 
 Une fiche d'urbanisme est généralement constitutée des éléments suivants :
 
@@ -311,7 +311,7 @@ L'opérateur sélectionne le format destination dans lequel exporter les donnée
 
 
 - Générer un rapport depuis le panier : le bouton ![](../images/panier_rapport.png) permet de générer un rapport directement à partir des éléments affichés dans le panier.
-[En savoir plus les rapports](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#la-generation-de-rapports).
+En savoir plus les rapports en consultat la page http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#la-generation-de-rapports.
 
 
  ![](../images/idea.png)Le bouton **Remplacer le panier** vide l'intégralité des objets de tous les onglets du panier.
@@ -358,25 +358,25 @@ Les objets qui apparaissent dans le tableau de la fenêtre sont les objets du pa
 
   La fiche descriptive de la parcelle retourne sous forme tabulaire la liste des propriétaires et des subdivisions fiscales de la parcelle sélectionnée. Elle est relative à une unique parcelle.
 
-  Il s'agit de la même fiche descriptive retournée par [la recherche en un clic](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#fiche-descriptive-de-la-parcelle)
+  Il s'agit de la même fiche descriptive retournée par la recherche en un clic décrite sur la page http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#fiche-descriptive-de-la-parcelle
 
 ![](../images/fiche_descriptive_parcelle.png)
 
 La fiche descriptive de la parcelle est configurable par l'administrateur de l'application.
-  [En savoir plus sur la configuration des rapports](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html).
+  En savoir plus sur la configuration des rapports sur la page http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html.
 
 ### Le relevé de propriété de la parcelle
 
 Ce rapport retourne au format PDF le relevé de propriété de la parcelle sélectionnée. Il est relatif à une unique parcelle. La fiche de relevé de propriété retourne le ou les propriétaires de la parcelle sélectionnée et en détaille le bâti et le non bâti.
 
-Il s'agit du relevé de propriété stanadard généré par ["la recherche en un clic"](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#le-releve-de-propriete)
+Il s'agit du relevé de propriété stanadard généré par "la recherche en un clic" : http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#le-releve-de-propriete
 
 ![](../images/releve_prop.png)
 
 ### La fiche d'urbanisme
 
 Relative à une unique parcelle, la fiche d'urbanisme  est associée à un modèle d'impression dont les éléments sont configurables par l'administrateur de vMap.
-Il s'agit de la même fiche d'urbanisme générée par  ["le rapport en un clic"](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#la-fiche-d-urbanisme)
+Il s'agit de la même fiche d'urbanisme générée par  "le rapport en un clic" http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#la-fiche-d-urbanisme
 
 ![](../images/exemple_fiche_urab.png)
 
