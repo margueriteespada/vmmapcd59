@@ -333,7 +333,7 @@ Les objets qui apparaissent dans le tableau de la fenêtre sont les objets du pa
 ![](../images/fenetre_rapport.png)
 
 
-  ![](../images/idea.png) La génération de rapport de l'élément requêté  n'est possible que si l'administrateur de l'application en a préalablement conçu un, et s'il pris soin d'associer le rapport au type d'objet sélectionné.
+  ![](../images/idea.png) La génération de rapport de l'élément requêté  n'est possible que si l'administrateur de l'application en a préalablement conçu un, et s'il a  pris soin d'associer le rapport au type d'objet sélectionné.
 
   9 rapports relatifs aux parcelles sont livrés avec l'application vMap.
 
