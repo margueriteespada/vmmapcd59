@@ -233,7 +233,7 @@ L'opérateur sélectionne la commune puis le propriétaire de la parcelle. Un mo
 
  ![](./images/recherche_proprio1.png)
 
-La liste des propriétaires de la commune s'affiche. L'opérateur sélectionne ensuite le ou les comptes du propriétaire sélectionné. Le bouton ![](../images/tout_selectionner.png) permet de sélectionnes toutes les comptes. Le bouton ![](../images/deselectionner.png) permet d'annuler la sélection des comptes. Un formulaire  ![](../images/rechercher.png) permet la saisie de la référence ou d'une partie de la référence du compte  pour en filtrer la liste.
+La liste des propriétaires de la commune s'affiche. L'opérateur sélectionne ensuite le ou les comptes du propriétaire sélectionné. Le bouton ![](./images/tout_selectionner.png) permet de sélectionnes toutes les comptes. Le bouton ![](./images/deselectionner.png) permet d'annuler la sélection des comptes. Un formulaire  ![](./images/rechercher.png) permet la saisie de la référence ou d'une partie de la référence du compte  pour en filtrer la liste.
 
  ![](./images/recherche_proprio2.png)
 
@@ -252,7 +252,7 @@ L'opérateur sélectionne la commune puis le propriétaire de la parcelle. Un mo
 
 La liste des propriétaires de la commune s'affiche. L'opérateur sélectionne ensuite le ou les comptes du propriétaire sélectionné. Le bouton ![](./images/tout_selectionner.png) permet de sélectionnes toutes les comptes. Le bouton ![](./images/deselectionner.png) permet d'annuler la sélection des comptes. Un formulaire  ![](./images/rechercher.png) permet la saisie de la référence ou d'une partie de la référence du compte  pour en filtrer la liste.
 
-L'opérateur sélectionne ensuite dans la liste le  bâti associés au(x) compte(s) sélectionné(s). Il sélectionne ensuite les invariants, puis la parcelle dont il cherche à extraire les informations.  
+L'opérateur sélectionne ensuite dans la liste le  bâti associé au(x) compte(s) sélectionné(s). Il sélectionne ensuite les invariants, puis la parcelle dont il cherche à extraire les informations.  
 
  ![](./images/recherche_bati.png)
 
