@@ -122,9 +122,11 @@ Dans l'exemple ci-dessus, l'opérateur effectue une recherche de commune par poi
 
 Cliquer sur l'un des modes de sélection suivants :
 
+
  - Par point : il s'agit du mode de sélection le plus simple puisqu'un seul objet est retourné. L'objet intersecté par le point (emplacement du clic) est sélectionné. Il apparaît en surbrillance sur la carte. Il peut désormais être ajouté au panier.
 
 ![](./images/selection_point.png).
+
 
 
  - Par ligne : tous les objets intersectant la ligne dessinée à l'écran sont retournés.
@@ -139,6 +141,7 @@ Cliquer sur l'un des modes de sélection suivants :
   ![](./images/selection_ligne2.png)
 
   Les 3 parcelles qui intersectent la ligne dessinée à l'écran apparaissent en surbrillance. Elles peuvent désormais être ajoutées au panier.
+
 
 
  - Par polygone : tous les objets compris et intersectés par le polygone dessiné à l'écran sont retournés.
@@ -162,6 +165,7 @@ Cliquer sur l'un des modes de sélection suivants :
 ## 2. Recherche attributaire : l'onglet Formulaire
 
 La recherche des objets du cadastre peut être effectuée à partir des données littérales sans passer par la carte et la sélection graphique. L'onglet Formulaire permet ce mode de recherche. 5 types de recherche sont disponible :  
+
   - La recherche de commune
   - La recherche de section(s)
   - la recherche de lieu(x) dit(s)
@@ -180,7 +184,7 @@ Après avoir indiqué la commune comme objet recherché, l'opérateur sélection
 
 ### La recherche de section(s)
 
-Après avoir indiqué la section comme objet recherché, l'opérateur sélectionne dans la liste déroulante, la commune de la section recherchée. Les sections s'affichent sous forme tabulaire. L'opérateur sélectionne la ou les sections dont il veut extraire les informations. Le bouton ![](../images/tout_selectionner.png) permet de sélectionner toutes les sections du tableau. Le bouton ![](./images/deselectionner.png) permet d'annuler la sélection des sections.
+Après avoir indiqué la section comme objet recherché, l'opérateur sélectionne dans la liste déroulante, la commune de la section recherchée. Les sections s'affichent sous forme tabulaire. L'opérateur sélectionne la ou les sections dont il veut extraire les informations. Le bouton ![](./images/tout_selectionner.png) permet de sélectionner toutes les sections du tableau. Le bouton ![](./images/deselectionner.png) permet d'annuler la sélection des sections.
 
  ![](./images/section.png)
 
@@ -188,7 +192,7 @@ Après avoir indiqué la section comme objet recherché, l'opérateur sélection
 
 ### La recherche de Lieu(x) dit(s)
 
-Après avoir indiqué le lieu dit  comme objet recherché, l'opérateur sélectionne dans la liste déroulante la commune du lieu dit. Les lieux dits s'affichent sous forme de liste. L'opérateur sélectionne le ou les lieux dits dont il veut extraire les informations. Le bouton ![](./images/tout_selectionner.png) permet de sélectionnes toutes les lieux dits. Le bouton ![](./images/deselectionner.png) permet d'annuler la sélection des lieux dits. Un formulaire  ![](./images/rechercher.png) permet la saisie du nom ou d'une partie du nom d'un lieu dit pour en  filtrer la liste.
+Après avoir indiqué le lieu dit  comme objet recherché, l'opérateur sélectionne dans la liste déroulante la commune du lieu dit. Les lieux dits s'affichent sous forme de liste. L'opérateur sélectionne le ou les lieux dits dont il veut extraire les informations. Le bouton ![](./images/tout_selectionner.png) permet de sélectionner toutes les lieux dits. Le bouton ![](./images/deselectionner.png) permet d'annuler la sélection des lieux dits. Un formulaire  ![](./images/rechercher.png) permet la saisie du nom ou d'une partie du nom d'un lieu dit pour en  filtrer la liste.
 
  ![](./images/lieux_dits.png)
 
