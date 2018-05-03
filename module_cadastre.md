@@ -27,7 +27,7 @@ L'onglet Carte du module Cadastre permet de sélectionner  des éléments du cad
 
 ### 1 - Le rapport en un clic
 Relatif à la parcelle, le "rapport en un clic" permet  de générer des rapports parcelle par parcelle.
-Une fois une parcelle sélectionnée, ses données littérales peuvent être affichées  par l'intermédiaire d'un panier   ![](../images/panier.png).
+Une fois une parcelle sélectionnée, ses données littérales peuvent être affichées  par l'intermédiaire d'un panier   ![](./images/panier.png).
 
 
  Après avoir choisi le type de rapport à générer, l'opérateur clique dans la carte sur la parcelle dont il veut extraire les informations.
