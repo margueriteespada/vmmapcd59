@@ -299,10 +299,12 @@ Le ou les objets sont centrés sur la carte et un zoom est effectué dessus.
 - Zoom sur une géométrie : le pictogramme Zoom sur la géométrie   ![](./images/zoom_geometrie.png) permet de zoomer sur l'élément sélectionné. L'objet sélectionné est centré sur la carte est apparaît en surbrillance bleue. Le bouton ![](./images/localisation.png) permet d'annuler la mise en surbrillance d'un objet.
 
 
+
 - Tri des objets : un clic sur l'en-tête d'une colonne permet de trier les données par ordre croissant et décroissant.
 
 
 - Onglets du panier : à chaque type d'objet sélectionné correspond un onglet dans le panier. Ainsi par exemple, si des communes et des parcelles ont été recherchées puis ajoutées au panier, alors deux onglets sont affichés dans le panier  : ![](./images/panier_onglets.png)
+
 
 
 - Exporter les données attributaires : le bouton ![](./images/exporter.png) en haut à droite du panier permet l'export de l'intégralité des attributs de tous les objets de l'onglet en cours d'affichage.
@@ -312,6 +314,7 @@ L'opérateur sélectionne le format destination dans lequel exporter les donnée
     - CSV
     - XML
     - TXT
+
 
 
 - Générer un rapport depuis le panier : le bouton ![](./images/panier_rapport.png) permet de générer un rapport directement à partir des éléments affichés dans le panier.
@@ -337,7 +340,7 @@ Les objets qui apparaissent dans le tableau de la fenêtre sont les objets du pa
 ![](./images/fenetre_rapport.png)
 
 
-  ![](../images/idea.png) La génération de rapport de l'élément requêté  n'est possible que si l'administrateur de l'application en a préalablement conçu un, et s'il a  pris soin d'associer le rapport au type d'objet sélectionné.
+  ![](./images/idea.png) La génération de rapport de l'élément requêté  n'est possible que si l'administrateur de l'application en a préalablement conçu un, et s'il a  pris soin d'associer le rapport au type d'objet sélectionné.
 
   9 rapports relatifs aux parcelles sont livrés avec l'application vMap.
 
