@@ -54,7 +54,7 @@ La fiche descriptive fournit généralement les éléments suivants :
 
 Un bouton Impression ![](./images/bouton_impression.png) en bas de la fenêtre permet d'imprimer la fiche descriptive de la parcelle.
 
-Les boutons  ![](./images/bouton_releve_propriete2.png)  et  ![](../images/bouton_fiche_urbanisme2.png) en haut à droite de la fenêtre, permettent de générer directement ces deux rapports sans passer par le module Cadastre.  
+Les boutons  ![](./images/bouton_releve_propriete2.png)  et  ![](./images/bouton_fiche_urbanisme2.png) en haut à droite de la fenêtre, permettent de générer directement ces deux rapports sans passer par le module Cadastre.  
 
 
 #### Le relevé de propriété
