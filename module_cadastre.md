@@ -82,7 +82,7 @@ Une fiche d'urbanisme est généralement constitutée des éléments suivants :
 
   - Titre et en-tête
   - Carte illustrant la parcelle sélectionnée dans sa commune d'appartenance
-  - Descriptif de la parcelle (numéro de section, numéro de parcelle....)
+  - Descriptif de la parcelle (numéro de section, numéro de parcelle...)
   - Liste des propriétaires de la parcelles
   - ...
 
@@ -160,7 +160,7 @@ Cliquer sur l'un des modes de sélection suivants :
   Les 4 parcelles qui intersectent le polygone dessiné à l'écran apparaissent en surbrillance. Ils peuvent désormais être ajoutés au panier.
 
 
-   ![](./images/idea.png) Cocher l'option ![Ajouter à la sélection](../images/ajout_selection.png) pour que les éléments préalablements sélectionnés graphiquement soient toujours sélectionnés.
+   ![](./images/idea.png) Cocher l'option ![Ajouter à la sélection](./images/ajout_selection.png) pour que les éléments préalablements sélectionnés graphiquement soient toujours sélectionnés.
 
 
 ## 2. Recherche attributaire : l'onglet Formulaire
