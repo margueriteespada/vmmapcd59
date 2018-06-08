@@ -1,13 +1,12 @@
 # Module cadastre
 
 
-Le module cadastre est un module spécifique à vMap intégré dans l'interface cartographique. Le but du module Cadastre est de rechercher soit cartographiquement soit de manière attributaire des entités cadastrales (parcelles, sections, bâtis etc..) pour les  visualiser, consulter leurs informations et générer des rapports spécifiques.
+Le module Cadastre est un module spécifique à vMap intégré dans l'interface cartographique. Le but du module Cadastre est de rechercher soit cartographiquement soit de manière attributaire des entités cadastrales (parcelles, sections, bâtis etc..) pour les  visualiser, consulter leurs informations et générer des rapports spécifiques.
 
-![](../images/idea.png)Le module cadastre est accessible aux personnes en ayant droit, c'est à dire à tout utilisateur pour lequel l'administrateur de l'application a attribué les droits nécessaires pour accéder au module. Consulter la page http://vmap.readthedocs.io/fr/latest/doc_module_vitis/administration/users.html pour en savoir plus sur la gestion des utilisateurs dans vMap. 
+![](../images/idea.png)Le module Cadastre est accessible aux personnes en ayant droit, c'est à dire à tout utilisateur pour lequel l'administrateur de l'application a attribué les droits nécessaires pour accéder au module.
 
 
-
-Le bouton **module cadastre**  ![Bouton du module cadastre](../images/bouton_module_cadastre.png) permet de déployer le module cadastre à droite de la carte. Le module cadastre comporte l'intégralité des fonctionalités spécifiques à la recherche d'informations cadastrales de la carte Cadastre.
+Le bouton **module cadastre**  ![Bouton du module cadastre](../images/bouton_module_cadastre.png) permet de déployer le module Cadastre à droite de la carte. Il comporte l'intégralité des fonctionnalités spécifiques à la recherche d'informations cadastrales de la carte Cadastre.
 
 ![Carte cadastre](../images/cadastre1.png)
 
@@ -24,6 +23,10 @@ Le module Cadastre est composé des éléments suivants :
 
 L'onglet Carte du module Cadastre permet de sélectionner  des éléments du cadastre directement sur la carte  puis d'en générer un rapport.  Il existe deux façons de sélection d'objets et de génération de rapports :
 
+- Le rapport en un clic
+- La recherche avancée
+
+
 
 ### 1 - Le rapport en un clic
 Relatif à la parcelle, le "rapport en un clic" permet  de générer des rapports parcelle par parcelle.
@@ -32,29 +35,28 @@ Une fois une parcelle sélectionnée, ses données littérales peuvent être aff
 
  Après avoir choisi le type de rapport à générer, l'opérateur clique dans la carte sur la parcelle dont il veut extraire les informations.
 
- 3 types de rapports relatifs à une parcelle sélectionnée  peuvent être générés :
+ 3 types de rapports relatifs à une parcelle sélectionnée  peuvent être générés :  la fiche descriptive de la parcelle, le relevé de propriété et la fiche d’urbanisme
 
  #### Fiche descriptive de la parcelle.
 
 
  Cliquer sur le bouton Fiche descriptive ![](../images/bouton_fiche_descriptive.png), puis sélectionner sur la carte, la parcelle dont on souhaite extraire les informations cadastrales.
 
-Les éléments constitutifs de la fiche descriptive d'une parcelle  sont préalablement configurés par l'administrateur de l'application vMap. En savoir plus sur la configuration de la fiche descriptive d'une parcelle en consultant http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html#fiche-descriptive-de-la-parcelle
-
+Les éléments constitutifs de la fiche descriptive d'une parcelle  sont préalablement configurés par l'administrateur de l'application vMap.
 
 La fiche descriptive fournit généralement les éléments suivants :  
 
 
-- Le numéro, la superficie et la commune d'appartenance de la parcelle
+- le numéro, la superficie et la commune d'appartenance de la parcelle
 - la liste des propriétaires de la parcelle
 - la liste  des subdivisions fiscales de la parcelle
 - la liste des bâtis de la parcelle
 
  ![](../images/fiche_descriptive_parcelle.png)
 
-Un bouton Impression ![](../images/bouton_impression.png) en bas de la fenêtre, permet d'imprimer la fiche descriptive de la parcelle.
+Un bouton Impression ![](../images/bouton_impression.png) en bas de la fenêtre permet d'imprimer la fiche descriptive de la parcelle.
 
-Les boutons  ![](../images/bouton_releve_propriete2.png)  et  ![](../images/bouton_fiche_urbanisme2.png) en haut à droite de la fenêtre, permettent de générer directement ces deux rapports sans passer par le module cadastre.  
+Les boutons  ![](../images/bouton_releve_propriete2.png)  et  ![](../images/bouton_fiche_urbanisme2.png) en haut à droite de la fenêtre, permettent de générer directement ces deux rapports sans passer par le module Cadastre.  
 
 
 #### Le relevé de propriété
@@ -74,7 +76,7 @@ Cliquer sur le bouton Relevé de propriété ![](../images/bouton_releve_proprie
 
 Cliquer sur le bouton Fiche d'urbanisme ![](../images/bouton_fiche_urbanisme.png), puis cliquer sur la parcelle dont on souhaite extraire la fiche.
 
-Les éléments constitutifs de la fiche d'urbanisme sont préalablement configurés par l'administrateur de l'application vMap. En savoir plus sur la configuration de la fiche d'urbanisme d'une parcelle, en consultant la page http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html#fiche-d-urbanisme.
+Les éléments constitutifs de la fiche d'urbanisme sont préalablement configurés par l'administrateur de l'application vMap.
 
 Une fiche d'urbanisme est généralement constitutée des éléments suivants :
 
@@ -95,7 +97,7 @@ La recherche avancée permet de sélectionner sur la carte un objet puis d'en af
 La recherche avancée s'opère en 2 temps :
 
 #### 1. Sélection de l'objet à rechercher
-La première étape consiste à sélectionner le type d'objet à requêter .
+La première étape consiste à sélectionner le type d'objet à requêter.
 Cliquer sur l'un des objets suivants :
 
   - la commune
@@ -127,7 +129,8 @@ Cliquer sur l'un des modes de sélection suivants :
 ![](../images/selection_point.png).
 
 
- - Par Ligne : tous les objets intersectant la ligne dessinée à l'écran sont retournés.
+
+- Par ligne : tous les objets intersectant la ligne dessinée à l'écran sont retournés.
 
     ![](../images/idea.png) Un double clic permet de finaliser  le dessin de la ligne sur la carte.
 
@@ -141,7 +144,8 @@ Cliquer sur l'un des modes de sélection suivants :
   Les 3 parcelles qui intersectent la ligne dessinée à l'écran apparaissent en surbrillance. Elles peuvent désormais être ajoutées au panier.
 
 
- - Par polygone : tous les objets compris et intersectés par le polygone dessiné à l'écran sont retournés.
+
+- Par polygone : tous les objets compris et intersectés par le polygone dessiné à l'écran sont retournés.
 
 
    ![](../images/idea.png) Un double clic permet de finaliser  le dessin du polygone.
@@ -156,7 +160,7 @@ Cliquer sur l'un des modes de sélection suivants :
   Les 4 parcelles qui intersectent le polygone dessiné à l'écran apparaissent en surbrillance. Ils peuvent désormais être ajoutés au panier.
 
 
-   ![](../images/idea.png) Cocher l'option ![Ajouter à la sélection](../images/ajout_selection.png) pour que les éléments nouvellement sélectionnés soient ajoutés à la liste des éléments préalablement sélectionnés.
+   ![](../images/idea.png) Cocher l'option ![Ajouter à la sélection](../images/ajout_selection.png) pour que les éléments préalablements sélectionnés graphiquement soient toujours sélectionnés.
 
 
 ## 2. Recherche attributaire : l'onglet Formulaire
@@ -184,15 +188,15 @@ Après avoir indiqué la section comme objet recherché, l'opérateur sélection
 
  ![](../images/section.png)
 
- Une fois sélectionnée(s), la(es) section(s) peut(vent) être ajoutée(s) au panier.
+ Une fois sélectionnée(s), la sélection peut être ajoutée au panier.
 
 ### La recherche de Lieu(x) dit(s)
 
-Après avoir indiqué le lieu dit  comme objet recherché, l'opérateur sélectionne dans la liste déroulante, la commune du lieu dit. Les lieux dits s'affichent sous forme de liste. L'opérateur sélectionne le ou les lieux dits dont il veut extraire les informations. Le bouton ![](../images/tout_selectionner.png) permet de sélectionnes toutes les lieux dits. Le bouton ![](../images/deselectionner.png) permet d'annuler la sélection des lieux dits. Un formulaire  ![](../images/rechercher.png) permet la saisie du nom ou d'une partie du nom d'un lieu dit pour en  filtrer la liste.
+Après avoir indiqué le lieu dit  comme objet recherché, l'opérateur sélectionne dans la liste déroulante la commune du lieu dit. Les lieux dits s'affichent sous forme de liste. L'opérateur sélectionne le ou les lieux dits dont il veut extraire les informations. Le bouton ![](../images/tout_selectionner.png) permet de sélectionner toutes les lieux dits. Le bouton ![](../images/deselectionner.png) permet d'annuler la sélection des lieux dits. Un formulaire  ![](../images/rechercher.png) permet la saisie du nom ou d'une partie du nom d'un lieu dit pour en  filtrer la liste.
 
  ![](../images/lieux_dits.png)
 
-Une fois sélectionné(s), l(es) lieu(x)dit(s) peut(vent) être ajouté(s) au panier.
+Une fois sélectionné(s), les lieux-dits peuvent être ajoutés au panier.
 
 
 ### La recherche de parcelle(s)
@@ -211,7 +215,7 @@ L'opérateur sélectionne la commune puis la section d'appartenance de la parcel
 
  ![](../images/parcelle_par_section.png)
 
-Une fois sélectionnée(s), la(es) parcelles(s) peut(vent) être ajoutée(s) au panier.
+Une fois sélectionnée(s), les parcelles peuvent être ajoutées au panier.
 
 #### La recherche par adresse DGFIP
 L'opérateur sélectionne la commune puis la voie d'appartenance de la parcelle. La liste des parcelles s'affichent sous forme tabulaire. L'opérateur sélectionne la ou les parcelles dont il veut extraire les informations. Un formulaire  ![](../images/rechercher.png) permet la saisie du nom  ou d'une partie du nom de la voie pour en filtrer la liste.
@@ -311,7 +315,6 @@ L'opérateur sélectionne le format destination dans lequel exporter les donnée
 
 
 - Générer un rapport depuis le panier : le bouton ![](../images/panier_rapport.png) permet de générer un rapport directement à partir des éléments affichés dans le panier.
-En savoir plus les rapports en consultat la page http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#la-generation-de-rapports.
 
 
  ![](../images/idea.png)Le bouton **Remplacer le panier** vide l'intégralité des objets de tous les onglets du panier.
@@ -333,7 +336,7 @@ Les objets qui apparaissent dans le tableau de la fenêtre sont les objets du pa
 ![](../images/fenetre_rapport.png)
 
 
-  ![](../images/idea.png) La génération de rapport de l'élément requêté  n'est possible que si l'administrateur de l'application en a préalablement conçu un, et si il pris soin d'associer le rapport au type d'objet sélectionné.
+  ![](../images/idea.png) La génération de rapport de l'élément requêté  n'est possible que si l'administrateur de l'application en a préalablement conçu un, et s'il a  pris soin d'associer le rapport au type d'objet sélectionné.
 
   9 rapports relatifs aux parcelles sont livrés avec l'application vMap.
 
@@ -358,25 +361,24 @@ Les objets qui apparaissent dans le tableau de la fenêtre sont les objets du pa
 
   La fiche descriptive de la parcelle retourne sous forme tabulaire la liste des propriétaires et des subdivisions fiscales de la parcelle sélectionnée. Elle est relative à une unique parcelle.
 
-  Il s'agit de la même fiche descriptive retournée par la recherche en un clic décrite sur la page http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#fiche-descriptive-de-la-parcelle
+  Il s'agit de la même fiche descriptive retournée par [la recherche en un clic](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#fiche-descriptive-de-la-parcelle)
 
 ![](../images/fiche_descriptive_parcelle.png)
 
 La fiche descriptive de la parcelle est configurable par l'administrateur de l'application.
-  En savoir plus sur la configuration des rapports sur la page http://vmap.readthedocs.io/fr/latest/doc_module_vmap/administration/module_cadastre.html.
 
 ### Le relevé de propriété de la parcelle
 
 Ce rapport retourne au format PDF le relevé de propriété de la parcelle sélectionnée. Il est relatif à une unique parcelle. La fiche de relevé de propriété retourne le ou les propriétaires de la parcelle sélectionnée et en détaille le bâti et le non bâti.
 
-Il s'agit du relevé de propriété stanadard généré par "la recherche en un clic" : http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#le-releve-de-propriete
+Il s'agit du relevé de propriété stanadard généré par ["la recherche en un clic"](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#le-releve-de-propriete)
 
 ![](../images/releve_prop.png)
 
 ### La fiche d'urbanisme
 
 Relative à une unique parcelle, la fiche d'urbanisme  est associée à un modèle d'impression dont les éléments sont configurables par l'administrateur de vMap.
-Il s'agit de la même fiche d'urbanisme générée par  "le rapport en un clic" http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#la-fiche-d-urbanisme
+Il s'agit de la même fiche d'urbanisme générée par  ["le rapport en un clic"](http://vmap.readthedocs.io/fr/latest/doc_module_vmap/utilisation/module_cadastre.html#la-fiche-d-urbanisme)
 
 ![](../images/exemple_fiche_urab.png)
 
