@@ -1,6 +1,6 @@
 # Mode cartographie
 
-![](../images/mode_visualisation.png)
+![](./images/mode_visualisation.png)
 
 ## 1. Définition
 
