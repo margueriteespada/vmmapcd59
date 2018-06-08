@@ -65,20 +65,3 @@ vMap.
 -   Un outil de localisation par la saisie d'adresse.  ![](./images/adresse.png).Par défaut l'outil fonctionne avec la couche Open Street Map. Si un objet métier est associé à un calque de la carte, un choix sera disponible entre plusieurs localisations.
 
 
-
-## 4. Accès direct : visualisation d'objet spécifique
-Il est possible de visualiser un objet spécifique d'une carte en indiquant dans l'url, les paramètres suivants séparés par des &.
-Chacun de ces paramètres est facultatif
-
-   - map_id: l'identifiant de la carte à afficher (récupérable dans la liste des cartes)
-   - bo_id: identifiant de l'objet métier à interroger
-   - ids: le ou les identifiants des entités à afficher (nécessite bo_id)
-   - login: login pour une connexion automatique (nécessite password)
-   - password: mot de passe pour une connexion automatique
-
- Un zoom est effectué sur l'objet défini en paramètre de l'url et ce dernier est centré sur la carte qui s'affiche.
-
- Exemple d'url :
-
-
- https://demo.veremes.net/vmap/?map_id=-1&bo_id=veremes_parcelles_visualisation&ids=66366000AB0003|66366000AB0007&login=demo&password=demo
