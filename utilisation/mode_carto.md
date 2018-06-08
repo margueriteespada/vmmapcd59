@@ -62,6 +62,6 @@ vMap.
 -   Un outil pour centrer la carte sur l'étendue maximale ![](../images/bouton_etendue_max.png). L'étendue maximale d'une carte diffère en fonction du système de projection. Si la carte est en Lambert 93, l'étendue maximale de la carte est la France.
 -   Un outil pour rafraichir les couches de la carte sans avoir à recharger l'application ![](../images/refresh.png).
 -   Un outil pour recentrer la carte sur l'emprise par défaut définie par l'administrateur ![](../images/emprise.png).
--   Un outil de localisation par la saisie d'adresse.  ![](../images/adresse.png).Par défaut l'outil fonctionne avec la couche Open Street Map. Si un objet métier est associé à un calque de la carte, un choix sera disponible entre plusieurs localisations.
+-   Un outil de localisation par la saisie d'adresse ![](../images/adresse.png).Par défaut l'outil fonctionne avec la couche Open Street Map. Si un objet métier est associé à un calque de la carte, un choix sera disponible entre plusieurs localisations.
 
 
