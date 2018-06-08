@@ -52,7 +52,7 @@ La fiche descriptive fournit généralement les éléments suivants :
 - la liste  des subdivisions fiscales de la parcelle
 - la liste des bâtis de la parcelle
 
- ![](../images/fiche_descriptive_parcelle.png)
+ ![](./images/fiche_descriptive_parcelle.png)
 
 Un bouton Impression ![](./images/bouton_impression.png) en bas de la fenêtre permet d'imprimer la fiche descriptive de la parcelle.
 
@@ -192,7 +192,7 @@ Après avoir indiqué la section comme objet recherché, l'opérateur sélection
 
 ### La recherche de Lieu(x) dit(s)
 
-Après avoir indiqué le lieu dit  comme objet recherché, l'opérateur sélectionne dans la liste déroulante la commune du lieu dit. Les lieux dits s'affichent sous forme de liste. L'opérateur sélectionne le ou les lieux dits dont il veut extraire les informations. Le bouton ![](./images/tout_selectionner.png) permet de sélectionner toutes les lieux dits. Le bouton ![](./images/deselectionner.png) permet d'annuler la sélection des lieux dits. Un formulaire  ![](../images/rechercher.png) permet la saisie du nom ou d'une partie du nom d'un lieu dit pour en  filtrer la liste.
+Après avoir indiqué le lieu dit  comme objet recherché, l'opérateur sélectionne dans la liste déroulante la commune du lieu dit. Les lieux dits s'affichent sous forme de liste. L'opérateur sélectionne le ou les lieux dits dont il veut extraire les informations. Le bouton ![](./images/tout_selectionner.png) permet de sélectionner toutes les lieux dits. Le bouton ![](./images/deselectionner.png) permet d'annuler la sélection des lieux dits. Un formulaire  ![](./images/rechercher.png) permet la saisie du nom ou d'une partie du nom d'un lieu dit pour en  filtrer la liste.
 
  ![](./images/lieux_dits.png)
 
@@ -218,7 +218,7 @@ L'opérateur sélectionne la commune puis la section d'appartenance de la parcel
 Une fois sélectionnée(s), les parcelles peuvent être ajoutées au panier.
 
 #### La recherche par adresse DGFIP
-L'opérateur sélectionne la commune puis la voie d'appartenance de la parcelle. La liste des parcelles s'affichent sous forme tabulaire. L'opérateur sélectionne la ou les parcelles dont il veut extraire les informations. Un formulaire  ![](../images/rechercher.png) permet la saisie du nom  ou d'une partie du nom de la voie pour en filtrer la liste.
+L'opérateur sélectionne la commune puis la voie d'appartenance de la parcelle. La liste des parcelles s'affichent sous forme tabulaire. L'opérateur sélectionne la ou les parcelles dont il veut extraire les informations. Un formulaire  ![](./images/rechercher.png) permet la saisie du nom  ou d'une partie du nom de la voie pour en filtrer la liste.
 
 La liste "Adresses" permet ensuite de sélectionner une ou toutes les adresses de la voie sélectionnée.
 
@@ -302,7 +302,7 @@ Le ou les objets sont centrés sur la carte et un zoom est effectué dessus.
 - Tri des objets : un clic sur l'en-tête d'une colonne permet de trier les données par ordre croissant et décroissant.
 
 
-- Onglets du panier : à chaque type d'objet sélectionné correspond un onglet dans le panier. Ainsi par exemple, si des communes et des parcelles ont été recherchées puis ajoutées au panier, alors deux onglets sont affichés dans le panier  : ![](../images/panier_onglets.png)
+- Onglets du panier : à chaque type d'objet sélectionné correspond un onglet dans le panier. Ainsi par exemple, si des communes et des parcelles ont été recherchées puis ajoutées au panier, alors deux onglets sont affichés dans le panier  : ![](./images/panier_onglets.png)
 
 
 - Exporter les données attributaires : le bouton ![](./images/exporter.png) en haut à droite du panier permet l'export de l'intégralité des attributs de tous les objets de l'onglet en cours d'affichage.
@@ -317,9 +317,9 @@ L'opérateur sélectionne le format destination dans lequel exporter les donnée
 - Générer un rapport depuis le panier : le bouton ![](./images/panier_rapport.png) permet de générer un rapport directement à partir des éléments affichés dans le panier.
 
 
- ![](../images/idea.png)Le bouton **Remplacer le panier** vide l'intégralité des objets de tous les onglets du panier.
+ ![](./images/idea.png)Le bouton **Remplacer le panier** vide l'intégralité des objets de tous les onglets du panier.
 
- ![](../images/idea.png) Le panier est mis à jour à chaque fois qu'un objet est Ajouté au panier.  
+ ![](./images/idea.png) Le panier est mis à jour à chaque fois qu'un objet est Ajouté au panier.  
 
 
 
