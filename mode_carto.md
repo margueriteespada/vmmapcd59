@@ -39,7 +39,7 @@ On retrouve dans la Fenêtre "Carte" l'ensemble des fonctionnalités
 classiques d'un web SIG mais aussi plusieurs fonctionnalités propres à
 vMap.
 
-![](../images/outils.png)
+![](./images/outils.png)
 
 
 -   La barre de zoom sur le côté gauche (le zoom peut aussi être effectué via la souris)
