@@ -14,7 +14,7 @@ auxquels il appartient.
 Le bouton Carte ![](../images/bouton_carte.png) permet de déployer :
 - la table des matières
 - la légende
-- les jeux de données affichés sur la carte en cours. Chaque jeu de données est composé de 1 à plusiuers calques qu'il est possible d'afficher en cliquant sur le bouton 
+- les jeux de données affichés sur la carte en cours. Chaque jeu de données est composé de 1 à plusieurs calques qu'il est possible d'afficher en cliquant sur le bouton ![](../images/liste_calques.png)
 - le Gestionnaire des cartes. Le gestionnaire de cartes permet de sélectionner la carte à afficher et d'y opérer des opérations d'ajout de couches à la volée. Les couches peuvent être issues de service ou de fichier local.
 
 ![](../images/gestionnaire_carte.png)
